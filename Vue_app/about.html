@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About - Vue CDN Example</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+
+<body>
+    <div id="about-app">
+        <h1>{{ title }}</h1>
+        <p>This is the About Page.</p>
+        <button @click="showMessage">Show Message</button>
+        <p v-if="message">{{ message }}</p>
+        <br>
+        <a href="index.html">Go to Home</a>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
