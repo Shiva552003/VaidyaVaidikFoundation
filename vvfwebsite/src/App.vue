@@ -1,20 +1,18 @@
 <template>
   <Navbar />
-  <Home msg="Nothing"/>
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+  <Background />
+  <router-view />
 </template>
 
 <script>
-import Home from './components/home.vue'
-// import HelloWorld from './components/HelloWorld.vue'
 import Navbar from './components/navbar.vue'
+import Background from './components/background.vue'
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld,
     Navbar,
-    Home
+    Background
   }
 }
 </script>

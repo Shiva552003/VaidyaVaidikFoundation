@@ -9,11 +9,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Activities</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Schedule</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Photos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><router-link class="nav-link" to="/">Home</router-link></li>
+          <li class="nav-item"><router-link class="nav-link" to="/hello">Activities</router-link></li>
+          <li class="nav-item"><router-link class="nav-link" to="#">Schedule</router-link></li>
+          <li class="nav-item"><router-link class="nav-link" to="#">Photos</router-link></li>
+          <li class="nav-item"><router-link class="nav-link" to="/about">About</router-link></li>
         </ul>
       </div>
     </div>
@@ -51,12 +51,13 @@ export default {
 
 .navbar {
   position: sticky;
+  /* position: fixed;  -> Anytime Later, experiment with this feature    */  
   top: 0;
   z-index: 999;
   padding: 0;
   height: 10vh;
   min-height: 50px;
-  background-color: #ffffff;
+  background-color: #fdf5ec;
 }
 .navbar-brand {
   margin: 0;
