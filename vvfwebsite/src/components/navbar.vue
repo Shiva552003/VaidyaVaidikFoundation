@@ -10,7 +10,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><router-link class="nav-link" to="/">Home</router-link></li>
-          <li class="nav-item"><router-link class="nav-link" to="/hello">Activities</router-link></li>
+          <li class="nav-item"><router-link class="nav-link" to="/activities">Activities</router-link></li>
           <li class="nav-item"><router-link class="nav-link" to="#">Schedule</router-link></li>
           <li class="nav-item"><router-link class="nav-link" to="#">Photos</router-link></li>
           <li class="nav-item"><router-link class="nav-link" to="/about">About</router-link></li>
