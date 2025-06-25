@@ -8,7 +8,20 @@
         <p>Vaidya Vaidik Foundation is dedicated to preserving and promoting ancient Vedic wisdom while making it accessible and relevant to modern life. We strive to create a harmonious blend of traditional practices and contemporary understanding.</p>
       </div>
 
-      <div class="values-section">
+      <div class="services-section">
+        <h2>Our Services & Pricing</h2>
+        <p>
+          At Vaidya Vaidik Foundation, we offer a holistic service experience for religious events. Customers can book our premises for a desired duration, during which our experienced Pandit Ji will perform the appropriate rituals with authenticity and devotion.
+        </p>
+        <p>
+          The pricing for these services ranges from ₹5,000 to ₹25,000, depending on the event type, duration, and specific requirements. This cost includes the venue rental and professional ritual services.
+        </p>
+        <p>
+          We are committed to delivering a seamless and sacred experience, ensuring that every ceremony is conducted with the utmost respect to Vedic traditions while maintaining modern-day convenience for our patrons.
+        </p>
+      </div>
+
+      <!-- <div class="values-section">
         <h2>Our Values</h2>
         <div class="values-grid">
           <div class="value-card">
@@ -19,7 +32,7 @@
           <div class="value-card">
             <i class="bi bi-people-fill"></i>
             <h3>Community</h3>
-            <p>Building a supportive spiritual family</p>
+            <p>Building a supportive  family</p>
           </div>
           <div class="value-card">
             <i class="bi bi-book-fill"></i>
@@ -27,7 +40,7 @@
             <p>Sharing wisdom for personal growth</p>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="contact-section">
         <h2>Contact Us</h2>
@@ -38,11 +51,11 @@
           </div>
           <div class="contact-item">
             <i class="bi bi-envelope"></i>
-            <p>info@vaidyavaidik.org</p>
+            <p>vaidyavaidikfoundation@gmail.com</p>
           </div>
           <div class="contact-item">
             <i class="bi bi-geo-alt"></i>
-            <p>123 Spiritual Lane, Hyderabad, India</p>
+            <p>Flat No: 403, Dhruvatara Apartments, Somajiguda, Hyderabad, Telangana 500082</p>
           </div>
         </div>
       </div>
@@ -88,6 +101,16 @@ h2 {
 .mission-section p {
   color: #666;
   line-height: 1.6;
+}
+
+.services-section {
+  margin-bottom: 3rem;
+}
+
+.services-section p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1rem;
 }
 
 .values-grid {

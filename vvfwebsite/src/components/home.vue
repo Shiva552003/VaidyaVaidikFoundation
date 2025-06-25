@@ -7,36 +7,39 @@
   <div class="home-container">
     <div class="hero-section">
       <h1>Welcome to Vaidya Vaidik Foundation</h1>
-      <p class="subtitle">Nurturing Spiritual Growth Through Ancient Wisdom</p>
+      <p class="subtitle"></p>
     </div>
 
     <div class="services-grid">
       <div class="service-card">
-        <i class="bi bi-book"></i>
-        <h3>Vedic Education</h3>
-        <p>Learn ancient scriptures and their practical application in modern life</p>
+        <i class="bi bi-calendar-week"></i>
+        <h3>Weekly Activities</h3>
+        <p>Engage in our regular traditon gatherings and community sessions.</p>
       </div>
       <div class="service-card">
-        <i class="bi bi-heart"></i>
-        <h3>Spiritual Healing</h3>
-        <p>Experience traditional healing practices for mind, body, and soul</p>
-      </div>
-      <div class="service-card">
-        <i class="bi bi-people"></i>
-        <h3>Community Events</h3>
-        <p>Join our vibrant community in regular spiritual gatherings</p>
-      </div>
-      <div class="service-card">
-        <i class="bi bi-calendar-event"></i>
-        <h3>Sacred Ceremonies</h3>
-        <p>Participate in traditional rituals and ceremonies</p>
+        <i class="bi bi-clock"></i>
+        <h3>Schedule Events</h3>
+        <p>Book our venue and services for personalized religious ceremonies.</p>
       </div>
     </div>
 
-    <div class="cta-section">
-      <h2>Begin Your Spiritual Journey Today</h2>
+    <!-- <div class="cta-section">
+      <h2></h2>
       <router-link to="/activities" class="cta-button">Explore Activities</router-link>
-    </div>
+    </div> -->
+
+    <footer class="site-footer">
+      <div class="footer-links">
+        <router-link to="/terms-and-conditions">Terms &amp; Conditions</router-link>
+        <router-link to="/privacy-policy">Privacy Policy</router-link>
+        <router-link to="/refund-policy">Refund Policy</router-link>
+      </div>
+      <div class="footer-contact">
+        <p><i class="bi bi-telephone"></i> +91 7995861037</p>
+        <p><i class="bi bi-envelope"></i> vaidyavaidikfoundation@gmail.com</p>
+        <p><i class="bi bi-geo-alt"></i> Flat No: 403, Dhruvatara Apartments, Somajiguda, Hyderabad, Telangana 500082</p>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -133,6 +136,29 @@
     grid-template-columns: 1fr;
   }
 }
+
+.site-footer {
+  background: #f7f7f7;
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+}
+.footer-links {
+  margin-bottom: 1rem;
+}
+.footer-links a {
+  margin: 0 1rem;
+  color: #ff9431;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.footer-contact p {
+  margin: 0.3rem 0;
+  color: #666;
+}
+
 </style>
 
 <script>
