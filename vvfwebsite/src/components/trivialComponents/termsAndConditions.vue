@@ -10,12 +10,10 @@
 
       <section>
         <h2>2. Services</h2>
-        <p>We provide spiritual and educational services including:</p>
+        <p>We provide area to rent for a traditional events and services including:</p>
         <ul>
-          <li>Vedic education programs</li>
-          <li>Spiritual healing sessions</li>
-          <li>Community events</li>
-          <li>Sacred ceremonies</li>
+          <li>Conducting Ceremonies</li>
+          <li>Weekly Activities</li>
         </ul>
       </section>
 
@@ -25,7 +23,7 @@
         <ul>
           <li>Full payment is required to confirm bookings</li>
           <li>Cancellations must be made 24 hours in advance</li>
-          <li>Refunds are subject to our cancellation policy</li>
+          <!-- <li>Refunds are not available</li> -->
         </ul>
       </section>
 
@@ -35,7 +33,7 @@
         <ul>
           <li>Respect all participants and instructors</li>
           <li>Follow guidelines during ceremonies</li>
-          <li>Maintain the sanctity of spiritual spaces</li>
+          <li>Maintain the sanctity of traditional spaces</li>
         </ul>
       </section>
 
@@ -52,7 +50,7 @@
       <section>
         <h2>6. Contact Information</h2>
         <p>For any questions about these Terms and Conditions, please contact us at:</p>
-        <p>Email: info@vaidyavaidik.org</p>
+        <p>Email: vaidyavaidikfoundation@gmail.com</p>
         <p>Phone: +91 7995861037</p>
       </section>
     </div>

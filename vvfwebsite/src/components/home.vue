@@ -14,7 +14,7 @@
       <div class="service-card">
         <i class="bi bi-calendar-week"></i>
         <h3>Weekly Activities</h3>
-        <p>Engage in our regular traditon gatherings and community sessions.</p>
+        <p>Engage in our regular traditional gatherings and community sessions.</p>
       </div>
       <div class="service-card">
         <i class="bi bi-clock"></i>
@@ -32,7 +32,7 @@
       <div class="footer-links">
         <router-link to="/terms-and-conditions">Terms &amp; Conditions</router-link>
         <router-link to="/privacy-policy">Privacy Policy</router-link>
-        <router-link to="/refund-policy">Refund Policy</router-link>
+        <!-- <router-link to="/refund-policy">Refund Policy</router-link> -->
       </div>
       <div class="footer-contact">
         <p><i class="bi bi-telephone"></i> +91 7995861037</p>

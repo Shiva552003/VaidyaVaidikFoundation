@@ -34,14 +34,20 @@
           <li>Facilitate event management</li>
         </ul>
       </section>
+      
+      <section>
+        <h2>4. Refund Policy</h2>
+        <p>At Vaidya Vaidik Foundation, we do not offer any refunds once a booking or payment is confirmed. All transactions are final and non-refundable.
+            We encourage our patrons to review all service details thoroughly before making a reservation.</p>
+      </section>
 
       <section>
-        <h2>4. Data Security</h2>
+        <h2>5. Data Security</h2>
         <p>We implement appropriate security measures to protect your personal information from unauthorized access, alteration, or disclosure.</p>
       </section>
 
       <section>
-        <h2>5. Contact Us</h2>
+        <h2>6. Contact Us</h2>
         <p>For any questions about this Privacy Policy, please contact us at:</p>
         <p>Email: info@vaidyavaidik.org</p>
         <p>Phone: +91 7995861037</p>
