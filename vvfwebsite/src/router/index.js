@@ -1,7 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../components/home.vue'
 import About from '../components/About.vue'
-import Activities from '@/components/Activities.vue'
+import Activities from '@/components/services.vue'
 import PrivacyPolicy from '@/components/trivialComponents/privacyPolicy.vue'
 import TermsAndConditions from '@/components/trivialComponents/termsAndConditions.vue'
 import Schedule from '../components/schedule.vue'

@@ -10,10 +10,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><router-link class="nav-link" to="/">Home</router-link></li>
-          <li class="nav-item"><router-link class="nav-link" to="/activities">Activities</router-link></li>
+          <li class="nav-item"><router-link class="nav-link" to="/activities">Services</router-link></li>
           <li class="nav-item"><router-link class="nav-link" to="/schedule">Schedule</router-link></li>
           <!-- <li class="nav-item"><router-link class="nav-link" to="#">Photos</router-link></li> -->
           <li class="nav-item"><router-link class="nav-link" to="/about">About</router-link></li>
+          <li class="nav-item whatsapp-link">
+            <a aria-label="Chat on WhatsApp" href="https://wa.me/+917995861037"> <img src="../assets/whatsapp_logo.svg" />Chat on WhatsApp</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -92,7 +95,7 @@ export default {
 
 .nav-link{
   color: #ff9431;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
   padding: 0.5rem 1rem;
   transition: color 0.3s ease-in-out;
@@ -104,6 +107,29 @@ export default {
   border-radius: 5px;
   transform: scale(1.1);
   transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-link {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border: #25D366 1px solid;
+  border-radius: 5px;
+}
+.whatsapp-link:hover{
+  border: #1ea951 1px solid;
+}
+.whatsapp-link a:hover {
+  color: #1ea951;
+}
+
+.whatsapp-link a {
+  color: #25D366;
+  font-weight: 600;
+}
+.whatsapp-link img {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
 }
 
 </style>

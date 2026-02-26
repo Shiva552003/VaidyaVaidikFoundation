@@ -2,7 +2,7 @@
   <div class="activities-container">
     <div class="week-scroll">
       <div v-for="(day, index) in weekDays" :key="index" 
-           :class="['day-card', { 'today': day.isToday }]">
+          :class="['day-card', { 'today': day.isToday }]">
         <h3>{{ day.name }}</h3>
         <p class="date">{{ day.date }}</p>
         <div class="activities-list">
